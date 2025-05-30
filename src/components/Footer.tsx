@@ -1,4 +1,3 @@
-
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
@@ -7,8 +6,15 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent mb-4">
-              SocialSwift
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/5d92a1e1-36aa-4597-b666-37c71a951843.png" 
+                alt="SocialSwift Logo" 
+                className="h-8 w-8 mr-3"
+              />
+              <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+                SocialSwift
+              </div>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               The ultimate social media management platform for businesses of all sizes. Schedule, analyze, and grow your social presence effortlessly.
