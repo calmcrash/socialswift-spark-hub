@@ -12,7 +12,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/56143efe-ed61-4ef6-a045-df92fce2da81.png" 
                 alt="OpenAI" 
-                className="inline-block w-4 h-4 mr-2 brightness-0 invert opacity-60"
+                className="inline-block w-4 h-4 mr-2 brightness-0 invert opacity-60 align-middle"
                 style={{
                   filter: 'brightness(0) saturate(100%) invert(76%) sepia(77%) saturate(288%) hue-rotate(233deg) brightness(91%) contrast(89%)'
                 }}
